@@ -1,9 +1,8 @@
 <!--**
- * author: F-loat <chaimaoyuan@foxmail.com>
  *
- * github地址: https://github.com/F-loat/mpvue-wxParse
+ * github地址: https://github.com/guojinfa10837/wxparse-vue3
  *
- * for: Mpvue框架下 微信小程序富文本解析
+ 
  */-->
 
 <template>

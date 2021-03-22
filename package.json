@@ -1,7 +1,7 @@
 
 {
   "name": "wxparse-vue3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "guojinfa",
   "main": "src/wxParse.vue",
   "homepage": "https://github.com/guojinfa10837/wxparse-vue3#readme",

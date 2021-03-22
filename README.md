@@ -48,7 +48,7 @@
 * 安装
 
 ``` bash
-npm i mpvue-wxparse
+npm i wxparse-vue3
 ```
 
 * 使用
@@ -61,7 +61,7 @@ npm i mpvue-wxparse
 </template>
 
 <script>
-import wxParse from 'mpvue-wxparse'
+import wxParse from 'wxparse-vue3'
 
 export default {
   components: {
@@ -84,7 +84,7 @@ export default {
 </script>
 
 <style>
-@import url("~mpvue-wxparse/src/wxParse.css");
+@import url("~wxparse-vue3/src/wxParse.css");
 </style>
 ```
 
@@ -99,7 +99,7 @@ npm install marked
 
 ``` js
 import marked from 'marked'
-import wxParse from 'mpvue-wxparse'
+import wxParse from 'wxparse-vue3'
 
 export default {
   components: {
@@ -114,32 +114,5 @@ export default {
 ```
 
 
-## Tips
-
-* v0.6 之后的版本样式文件需自行引入
-
-* 打包时出错 `ERROR in static/js/vendor.js from UglifyJs`
-
-参照以下配置使 babel 处理 mpvue-wxparse，或更新 UglifyJs 插件
-
-``` js
-// webpack.base.conf.js
-{
-  test: /\.js$/,
-  include: [resolve('src'), /mpvue-wxparse/],
-  use: [
-    'babel-loader',
-    {
-      loader: 'mpvue-loader',
-      options: {
-        checkMPEntry: true
-      }
-    }
-  ]
-}
-```
 
 
-## 感谢
-
-[@stonewen](https://github.com/stonewen)| [@Daissmentii](https://github.com/Daissmentii)        | [@wuyanwen](https://github.com/wuyanwen)           | [@vcxiaohan](https://github.com/vcxiaohan)

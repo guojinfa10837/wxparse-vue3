@@ -45,7 +45,6 @@ export default {
       const { padding, mode } = this.node.attr;
       const { styleStr } = this.node;
       const imageHeightStyle = mode === 'widthFix' ? '' : `height: ${imageheight}px;`;
-      console.log(imageWidth);
       this.newStyleStr = `${styleStr}; ${imageHeightStyle}; width: ${imageWidth}px; padding: 0 ${+padding}px;`;
     },
     // 计算视觉优先的图片宽高
@@ -54,7 +53,6 @@ export default {
       const { padding } = this.node.attr;
       const windowWidth = this.node.$screen.width - (2 * padding);
       const results = {};
-      console.log(windowWidth)
       if (originalWidth < 60 || originalHeight < 60) {
         const { src } = this.node.attr;
         this.node.$host.removeImageUrl(src);
