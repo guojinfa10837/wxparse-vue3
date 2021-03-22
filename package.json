@@ -1,0 +1,18 @@
+
+{
+  "name": "wxparse-vue3",
+  "version": "1.0.0",
+  "author": "guojinfa",
+  "main": "src/wxParse.vue",
+  "homepage": "https://github.com/guojinfa10837/wxparse-vue3#readme",
+  "description": "适用于微信小程序富文本解析自定义组件，支持HTML及markdown解析",
+  "repository": "https://github.com/guojinfa10837/wxparse-vue3",
+  "email": "guojinfa1@163.com",
+  "private":false,
+  "keywords": [
+    "mpvue",
+    "wxparse",
+    "wxapp"
+  ],
+  "license": "ISC"
+}
